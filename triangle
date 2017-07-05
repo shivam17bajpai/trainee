@@ -1,0 +1,29 @@
+import java.util.Scanner;
+ class Traingle{
+    public static void main(String[] args){
+       Scanner n = new Scanner(System.in);
+
+       int row = n.nextInt();     
+       int baseLength = 1;
+       int starsInRow = 1;
+
+       while (baseLength <= rowCounter){
+         int starCounter = 1;
+         int whiteSpace = rowCounter/2; 
+
+         while (whiteSpace >= 0){
+            System.out.print(" ");
+            whiteSpace--;
+         }         
+
+         while (starCounter <= starsInRow){
+            System.out.print("*");
+            starCounter++;
+         }
+
+            System.out.println();
+            baseLength++;
+            starsInRow=starsInRow+2;    
+       }
+    }
+}
