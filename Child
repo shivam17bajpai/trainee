@@ -1,0 +1,46 @@
+ class Person {
+       
+       
+        int n;
+      
+
+Person( int n)
+{
+this.n= n;
+}
+}
+class A extends Person{
+int b;
+
+A(int n, int b){
+super(n);
+this.b=b;
+}
+
+void show()
+{
+
+System.out.println(n);
+System.out.println(b);
+
+
+}
+
+}
+
+class Child {
+
+   public static void main(String[] args)
+{
+A a1= new A(10,20);
+a1.show();
+
+
+}
+}
+
+
+
+
+
+ 
