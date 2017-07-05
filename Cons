@@ -1,0 +1,36 @@
+ class Emp {
+       
+        static String cname = "NIIT";
+        int empno;
+        String empname;
+
+Emp( String n)
+{
+empname =n;
+}
+ setname(String n)
+{
+empname=n;
+}
+void show()
+{
+System.out.println(empno);
+System.out.println(empname);
+System.out.println(cname);
+}
+
+
+   public static void main(String[] args)
+{
+
+Emp e1= new Emp("shivam");
+e1.setname();
+e1.show();
+}
+}
+
+
+
+
+
+ 
