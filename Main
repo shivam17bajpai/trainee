@@ -1,0 +1,35 @@
+ class Emp {
+       
+        static String cname = "NIIT";
+        int empno;
+        String empname;
+ void get(int n,String name)
+{
+empno=n;
+empname=name;
+}
+void show()
+{
+System.out.println(empno);
+System.out.println(empname);
+System.out.println(cname);
+}
+}
+
+
+ class Main   extends Emp {
+ 
+        public static void main(String[] args) {
+      Main a= new Main();
+     a.get(101,"shivam");
+     a.show();
+    Main b= new Main();
+     b.get(102,"mukesh");
+     b.show();
+      
+      
+}
+}
+
+      
+               
