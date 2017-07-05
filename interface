@@ -1,0 +1,19 @@
+interface My
+{
+ void show();
+}
+
+class A implements My
+
+{
+  public void show()
+{
+System.out.print("shivam");
+}
+
+	public static void main(String args[])
+{
+My m = new A();
+m.show();
+}
+}
