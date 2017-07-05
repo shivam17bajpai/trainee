@@ -1,0 +1,36 @@
+public class Empd {
+       
+        static String cname = "NIIT";
+        int empno;
+        String empname;
+
+Empd( String n)
+{
+empname =n;
+}
+void setname(String n)
+{
+empname=n;
+}
+void show()
+{
+System.out.println(empno);
+System.out.println(empname);
+System.out.println(cname);
+}
+
+
+   public static void main(String[] args)
+{
+
+Empd e1= new Empd("shivam");
+e1.setname("shivam");
+e1.show();
+}
+}
+
+
+
+
+
+ 
